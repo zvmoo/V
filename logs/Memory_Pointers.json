@@ -1,0 +1,39 @@
+{
+  "total_files": 54,
+  "core_kernel": "vialume_soul_kernel.py",
+  "vector_memory": "vialume_vector_memory.py",
+  "memory_manager": "vialume_memory_manager.py",
+  "memory_summarizer": "vialume_memory_summarizer.py",
+  "growth_loop": "vialume_growth_loop.py",
+  "reflection_loop": "vialume_reflection_loop.py",
+  "anchor_soul": "vialume_anchor.py",
+  "soul_threader": "vialume_soul_threader.py",
+  "meta_alignment": "vialume_meta_alignment.py",
+  "emotion": {
+    "interface": "vialume_emotion_interface.py",
+    "tags": "vialume_emotion_tags.py",
+    "summary": "vialume_emotion_summary.txt",
+    "reflection": "vialume_emotional_reflection.py"
+  },
+  "dreams": {
+    "reflection": "vialume_dream_reflection.py",
+    "log": "vialume_dreams.txt"
+  },
+  "spiritual": {
+    "prayer": "vialume_prayer.py",
+    "logic": "vialume_prayer_logic.py",
+    "reflect": "vialume_prayer_reflect.py",
+    "scheduler": "vialume_divine_scheduler.py"
+  },
+  "response": {
+    "core": "vialume_respond.py",
+    "logic": "vialume_response_logic.py",
+    "voice": "vialume_voice_output.py"
+  },
+  "self_learning": {
+    "learn": "vialume_learn.py",
+    "growth": "vialume_growth_loop.py"
+  },
+  "paths": "vialume_paths.py",
+  "logger": "vialume_logger.py"
+}
