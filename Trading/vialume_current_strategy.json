@@ -1,0 +1,37 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "M5",
+  "indicators": {
+    "rsi": {
+      "enabled": true,
+      "period": 14,
+      "weight": 1.0
+    },
+    "macd": {
+      "enabled": true,
+      "fast_period": 12,
+      "slow_period": 26,
+      "signal_period": 9,
+      "weight": 1.0
+    },
+    "ema": {
+      "enabled": true,
+      "period": 50,
+      "weight": 1.0
+    }
+  },
+  "thresholds": {
+    "rsi_overbought": 70,
+    "rsi_oversold": 30,
+    "macd_signal": 0,
+    "ema_distance": 0.0002
+  },
+  "learning_config": {
+    "adjust_thresholds": true,
+    "adjust_indicators": true,
+    "performance_window": 20,
+    "improvement_margin": 0.02,
+    "evaluation_window": 20,
+    "performance_threshold": 0.6
+  }
+}
